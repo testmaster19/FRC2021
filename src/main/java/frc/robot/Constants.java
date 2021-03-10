@@ -16,9 +16,9 @@ public final class Constants
 {
     public static class CAN
     {
-        public static final int kLeftMaster = 1;
+        public static final int kLeftMaster = 2;
         public static final int kRightMaster = 3;
-        public static final int kLeftSlave = 2;
+        public static final int kLeftSlave = 1;
         public static final int kRightSlave = 4;
     }
 
