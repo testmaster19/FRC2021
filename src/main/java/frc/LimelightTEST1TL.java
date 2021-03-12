@@ -261,17 +261,17 @@ public class LimeLight {
      * koff - Take two snapshots per second
      * @param snapshot
      */
-    public void setSnapshot(Snapshot snapshot) {
-        m_table.getEntry("snapshot").setValue(snapshot.getValue());
-    }
+    // public void setSnapshot(Snapshot snapshot) {
+    //     m_table.getEntry("snapshot").setValue(snapshot.getValue());
+    // }
 
-    public Snapshot getSnapshot() {
-        NetworkTableEntry snapshot = m_table.getEntry("snapshot");
-        double snshot = snapshot.getDouble(0.0);
-        Snapshot mode = Snapshot.getByValue(snshot );        
-        return mode;
-    }
-
+    // public Snapshot getSnapshot() {
+    //     NetworkTableEntry snapshot = m_table.getEntry("snapshot");
+    //     double snshot = snapshot.getDouble(0.0);
+    //     Snapshot mode = Snapshot.getByValue(snshot );        
+    //     return mode;
+    // }
+    // enable if need TL21
     // *************** Advanced Usage with Raw Contours *********************   
 
     /**
